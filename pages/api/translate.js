@@ -18,6 +18,6 @@ export default async function handler(req, res) {
 
 
   } catch (e) {
-    res.status(500).send('Error')
+    res.status(500).send(`Error => ${e}`)
   }
 }
